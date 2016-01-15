@@ -1,0 +1,23 @@
+{
+  "name": "linter-greplint",
+  "main": "./lib/linter-greplint",
+  "version": "0.0.0",
+  "description": "A short description of your package",
+  "keywords": [],
+  "activationCommands": {},
+  "repository": "https://github.com/diesire/atom-linter-greplint",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0 <2.0.0"
+  },
+  "dependencies": {
+    "greplint": "file:///C:\\Users\\NG52D87\\github\\greplint"
+  },
+  "providedServices": {
+    "linter": {
+      "versions": {
+        "1.0.0": "provideLinter"
+      }
+    }
+  }
+}

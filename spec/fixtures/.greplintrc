@@ -1,0 +1,5 @@
+{
+  "rules": {
+    "todo": ["hello", "root"]
+  }
+}
